@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>javascript/jQuery1回目課題</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+
+  <!-- タイトルバー -->
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-main">
+      <div class="title-main">
+        <p><img src="../html_14_金子花菜/img/kuma_mark_pink.png" alt=""></p>
+        <p class="title1">Teddy Talk<p>
+        <p><img src="../html_14_金子花菜/img/kuma_face.png" alt=""></p><br>
+       </div>
+       <div class="title-sub">
+         スヌーピーの弟　オラフのオラたんところちゃんと遊ぼう！
+       </div>
+
+    </div>
+   
+
+  </header>
+
+ 
+<!-- メニュー -->
+<nav>
+  <ul>
+  <li class=”current”>
+  <li><a href="#olatan1">オラたんとジャンケン</a></li>
+  <li><a href="#corochan2">コロちゃんとおしゃべり</a></li>
+  <li><a href="#more">More</a></li>
+  </ul>
+  </nav>
+  
+
+  <!-- オラたんとジャンケン -->
+
+  <div class="olatan-main">
+    <div id="olatan1">
+      <div class="back1">オラたんとジャンケンしよう！</div>
+    </div>
+      
+
+      <p class="olatan"><img src="../html_14_金子花菜/img/olatan_janken.png" alt=""></p>
+
+      <div class="olatan-button">
+        <!-- <input class="button1" value="グー" onclick="rsp(0);"> -->
+         <img src="../html_14_金子花菜/img/janken_gu.png" alt="" class="button1"value="グー" onclick="rsp(0);">
+
+        <!-- <input class="button2" value="チョキ" onclick="rsp(1);"> -->
+         <img src="../html_14_金子花菜/img/janken_choki.png" alt="" class="button2" value="チョキ" onclick="rsp(1);"> 
+
+        <!-- <input class="button3" value="パー" onclick="rsp(2);"> -->
+         <img src="../html_14_金子花菜/img/janken_pa.png" alt="" class="button3" value="パー" onclick="rsp(2);">
+     </div>
+
+     
+
+      <div class="result">
+          <div id="player"></div>
+          <div id="computer"></div>
+          <div id="resultMsg"></div>
+      </div>
+
+
+      <!-- <div> 
+        <button id="rock" value="1">グー</button>
+        <button id="scissors" value="2">チョキ</button>
+        <button id="paper" value="0">パー</button>
+        <button id="restart">もう一度</button>
+    -->
+
+
+  </div>
+
+
+
+  <!-- コロちゃんとおしゃべり -->
+
+  <div class="corochan-main">
+    <div id="corochan2">
+      <div class="back2">コロちゃんとおしゃべりしよう！</div>
+    </div>
+  
+ 
+    <!-- マウスオーバー -->
+   <div class="comment">
+
+    <img id="corochan" src="img/corochan.png" onmouseover="mouseOn();" onmouseout="mouseOff();" />
+   
+    <!-- コロちゃんがランダムにおしゃべり -->
+    <div class="text-button"><p class="text">ここをクリックしてね！</p></div>
+　　<div class='kekka'></div>
+  
+<!-- test -->
+
+
+   </div>
+   
+   
+  </div>
+
+
+  
+
+  <!-- ３人をおうえんするPop Up -->
+
+  <div class="olafbrothers">
+    <div class="image3">
+      <img src="../html_14_金子花菜/img/olaf3.png" alt="olafs">
+    
+    
+    <div id="more">
+      <h1 class="olafs3">ぼくたちオラフ3兄弟だよ<br> 仲良くしてくれる？<br></ｈ>
+   
+    
+  </div>
+    <p class="submit1">
+      <input type="submit" value="仲良くする!!" onClick="alert('Thank you so much!');">
+    </p>
+  </div>
+   
+  </div>
+  
+  
+<!-- youtube -->
+<h2 class="more">オラたんとコロちゃんと<br>
+  もっと遊びたくなったら、こっちにも遊びに来てね！
+</h2>
+
+
+<div class="youtube">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1rDCyzvjI-k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<!-- インスタ -->
+
+<div class="IGimage">
+  <a href="https://www.instagram.com/hana.k.nasubi87/">
+    <img src="../html_14_金子花菜/img/image1.png" alt="">
+  <img src="../html_14_金子花菜/img/image2.png" alt="">
+  <img src="../html_14_金子花菜/img/image3.png" alt="">
+</a>
+ 
+</div>
+
+
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/test.js"></script>
+
+
+</body>
+
+</html>

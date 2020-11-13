@@ -1,0 +1,267 @@
+
+/* ヘッダー */
+
+.title-main{
+   
+      display:flex;
+        vertical-align:top; /*縦方向の揃え位置を指定*/
+        align-items: center;
+        font-size: 60px;
+        justify-content: center;
+        
+        
+}
+.title1{
+    padding: 30px;
+}
+.header-main{
+  background: #b0dcfa; /*背景色*/
+        color: white;/*文字を白に*/
+        border-radius: 30px;/*角の丸み*/
+        align-content: center;
+        background-size: auto;
+      height: auto;
+      }
+      
+.title-sub{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+/* メニューバーを入れる */
+
+nav ul{
+  display: table;
+  margin-top: 20px;
+  padding: 0 ;
+  width: 80%;
+  text-align: center;
+  align-content: center;
+  font-size: 20px;
+  margin-left: 50px;
+  }
+
+  nav li{
+  display: table-cell;
+  min-width: 50px;
+  }
+  nav a{
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #555;
+  padding-bottom: 5px;
+  }
+  nav li.current{
+  border-bottom: 3px solid #92D050;
+  }
+  nav li:hover{
+  color: #E7DA66;
+  border-bottom: 3px solid #F0E475;
+  }
+
+
+
+
+/* オラたんジャンケン */
+
+.olatan-main{
+background-image:url(../img/ウサギ背景.png);
+}
+
+.back1{
+ text-align: center;
+ background-color: white;
+ font-size: 40px;
+ color:#709dff;
+ padding-top: 10px;
+  /*線の種類（点線）2px 線色*/
+  border-top: dashed 2px #6594e0;
+}
+
+
+.olatan{
+ text-align: center;
+}
+
+.olatan-button{
+  /* ボタンを中央揃え */
+  /* ボタンをグーチョキパーにしたい */
+  text-align: center;
+  
+}
+
+/* 試し */
+
+
+/* テスト */
+.button1{
+  display: inline-block;
+  font-size: 40px;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  transition: .4s;
+}
+
+        
+      
+      .button1:hover {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+      }
+
+      .button2{
+        display: inline-block;
+        font-size: 40px;
+        color: #FFF;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        text-align: center;
+        overflow: hidden;
+        background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+        transition: .4s;
+      }
+      
+      .button2:hover {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+      }
+
+      .button3{
+        display: inline-block;
+        font-size: 40px;
+        color: #FFF;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        text-align: center;
+        overflow: hidden;
+        background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+        transition: .4s;
+      }
+      
+      .button3:hover {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+      }
+
+
+/* 結果をセンタリングしたい */
+.result{
+ text-align: center;
+ color:#ff006f;
+ background-color: wheat;
+font-size: 30px;
+border-radius: 30px;/*角の丸み*/
+margin-bottom: 20px;
+}
+
+
+/* コロちゃんおしゃべり */
+
+
+
+.corochan-main{
+    background-image:url(../img/82225298-様々-なお菓子とのシームレスなパターン。お菓子、ドーナツ-・-クッキーでかわいいカラフルな背景。イラスト絵画.jpg);
+
+    text-align: center;    
+}
+
+    .back2{
+        text-align: center;
+        background-color: white;
+        font-size: 40px;
+        color:#709dff;
+        padding-top: 20px;
+        border-top: dashed 2px #6594e0;
+
+}
+       
+
+.corochan{
+text-align: center;
+
+}
+.text{
+  font-size: 30px;
+  color: #709dff;
+  background-color: #FFF;
+  background-size: auto;
+  
+}
+
+.kekka{
+  
+  color: #ff006f;
+  background-color: wheat;
+font-size: 40px;
+border-radius: 30px;/*角の丸み*/
+margin-bottom: 30px;
+height: 50px;
+
+}
+.comment{
+  position: relative;
+}
+
+/* 3兄弟 */
+
+.olafbrothers{
+  background-image:url(../img/パステル背景.png);
+  
+
+}
+.image3{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-left: 200px;
+
+}
+
+.olafs3{
+ font-size: 40px;
+ color:#709dff;
+ 
+}
+
+
+
+.submit1{
+font-size: 40px;
+
+
+}
+
+
+/* インスタとYoutube */
+
+.more{
+  text-align: center;
+  font-size: 40px;
+ color:#709dff;
+}
+
+.youtube{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.IGimage{
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
